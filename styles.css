@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, h6, .navbar {
+    font-family: "Georgia", serif;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+}
+
+.result {
+    color: Green;
+    font-weight: bold;
+}
+
+.result:hover {
+    color: LawnGreen ;
+}
+
+.active {
+    background-color: GhostWhite;
+}
+.content-space {
+    margin: 5px 5px 5px 5px;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: Black;
+}
+
+.jumbotron{
+    padding: 2rem 1rem;
+    background-color: Black;
+    color: White;
+}
+body{
+    background-color: GhostWhite;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+}
+.card-deck{
+    padding: 5px 5px 5px 5px;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 20px DarkSlateGrey;
+}
